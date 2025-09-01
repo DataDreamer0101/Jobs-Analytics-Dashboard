@@ -61,17 +61,16 @@
 ### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/your-username/job_scraping_project.git
-cd job_scraping_project
+cd job_scraping_project 
 2️⃣ Create the Conda Environment
 bash
-Copy code
 conda env create -f environment.yml
 conda activate job_scraping
 3️⃣ Run Jupyter Notebook
 bash
-Copy code
 jupyter notebook job_scraping.ipynb
-4️⃣ Open Power BI Dashboard
+```
+### 4️⃣ Open Power BI Dashboard
 Open Remote_Jobs_Dashboard.pbix in Power BI Desktop
 
 Connect it with the jobs_cleaned.csv dataset
